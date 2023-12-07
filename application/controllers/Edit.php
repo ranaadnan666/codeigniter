@@ -16,7 +16,7 @@ class Edit extends CI_Controller {
 
         $this->form_validation->set_rules('name', 'name', 'required');
         $this->form_validation->set_rules('email', 'email', 'required|valid_email');
-        $this->form_validation->set_rules('city', 'city', 'required');
+        $this->form_validation->set_rules('city', 'city', 'required');f
 
         if ($this->form_validation->run() == false) {
             $this->load->view('edit', $data);

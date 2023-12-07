@@ -28,11 +28,11 @@ tr:nth-child(even) {
 </head>
 <body>
 
-<h2>List data demo</h2>
-<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<h2>List Of All user data</h2>
+<!-- <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p> -->
 
 <div class="container">
- <div style="text-align:right;padding:10px"> <a href="<?= base_url('index.php/create/index') ?>"><button>Add Record</button></a></div>
+<div style="display:flex;justify-content:space-between;padding:10px"><div> <a href="<?= base_url('/index.php/Brand/Read') ?>"><button style="padding:10px" >List Of all Brand Data</button></a> </div><a href="<?= base_url('index.php/create/index') ?>"><button style="padding:10px" >Add User </button></a></div>
 <table>
 <tr>
   <th>ID</th>
